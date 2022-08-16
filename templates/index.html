@@ -17,7 +17,7 @@
     <!-- navbar -->
     <nav style="width: 100%;" class="navbar navbar-dark bg-secondary">
          <a class="  navbar-brand" href="#" style="margin-left: 0px; margin-top: 0px; margin-right: 0px">
-             <img style="max-height: auto; width:100%;" src="\pic\PIET logo with tagline.jpg">
+             <img style="max-height: auto; width:100%;" src="\pic\PIET%20logo%20with%20tagline.jpg">
          </a>
         <div style="margin-top: 10px; margin-Right: 10px; color: white;">
            <a class="  navbar-brand" href="#" style="margin-left: 0px; margin-top: 0px; margin-right: 0px">
@@ -54,12 +54,12 @@ div {text-align: center;}
 <!-- Main Input For Receiving Query to our ML -->
 <form action="{{ url_for('predict')}}"method="get">
 <div class="form-floating mb-3">
-<input type="number" class="form-control" id="exp1" name="exp1" step="any" min="0" max="200" placeholder="0" required="required">
+<input type="number" class="form-control" id="exp1" name="exp1" step="any" min="0" max="20000" placeholder="0" required="required">
 <label for="floatingInput">Enter lattitude </label>
 <br><Br>
 </div>
-<div>  
-<input type="number" class="form-control" id="exp2" name="exp2" step="any" min="0" max="200" placeholder="0" required="required">
+<div class="form-floating mb-3">  
+<input type="number" class="form-control" id="exp2" name="exp2" step="any" min="0" max="20000" placeholder="0" required="required">
 <label for="floatingInput">Enter longitude </label>
 </div>
 <br>
