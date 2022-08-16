@@ -33,19 +33,19 @@ def predict():
 
     elif Model=="Linear Classifier":
       prediction = model1.predict([[exp1,exp2]])
-      return render_template('index.html', prediction_text='Model  has predicted Food Demand : {}'.format(prediction))
+      return render_template('index.html', prediction_text='Model  has predicted accidents : {}'.format(prediction))
       
     elif Model=="Desion Forest Classifier":
       prediction = model1.predict([[exp1,exp2]])
-      return render_template('index.html', prediction_text='Model  has predicted Food Demand : {}'.format(prediction))
+      return render_template('index.html', prediction_text='Model  has predicted accidents : {}'.format(prediction))
 
     elif Model=="NLP Classifier":
       prediction = model1.predict([[exp1,exp2]])
-      return render_template('index.html', prediction_text='Model  has predicted Food Demand : {}'.format(prediction))
+      return render_template('index.html', prediction_text='Model  has predicted accidents : {}'.format(prediction))
 
     elif Model=="KNN Classifier":
       prediction = model1.predict([[exp1,exp2]])
-      return render_template('index.html', prediction_text='Model  has predicted Food Demand : {}'.format(prediction))
+      return render_template('index.html', prediction_text='Model  has predicted accidents : {}'.format(prediction))
 
     
 
